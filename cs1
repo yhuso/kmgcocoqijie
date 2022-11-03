@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"jie","ws-opts":{"path":"/yhuso"},"server":"fangfang.live","port":"443","uuid":"cac96eaa-28ac-40ff-afcc-f2214482e132","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"by","ws-opts":{"path":"/yhuso"},"server":"fangfang.live","port":"443","uuid":"cac96eaa-28ac-40ff-afcc-f2214482e132","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
